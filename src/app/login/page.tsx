@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import toast from "react-hot-toast";
 
 export default function LoginPage() {
@@ -78,6 +79,7 @@ export default function LoginPage() {
         >
           {loading ? "Logging in..." : "Login"}
         </button>
+        <p className="text-center p-4">Don't have an account ? <Link className="text-blue-600 hover:underline"  href="/signup">Sign Up</Link></p>
       </form>
     </div>
   );
