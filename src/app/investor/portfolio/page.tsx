@@ -200,7 +200,7 @@ export default function PortfolioPage() {
   }, [stocks, searchTerm, sortKey]);
 
   return (
-    <div className="max-w-5xl mx-auto p-6 bg-white rounded-lg shadow-md min-h-screen">
+    <div className="min-w-screen mx-auto p-6 bg-white rounded-lg shadow-md min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-gray-900">Your Portfolio</h1>
 
       <div className="flex gap-3 mb-8">
